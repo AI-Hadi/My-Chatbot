@@ -10,7 +10,7 @@ from langchain_core.runnables import RunnablePassthrough
 import langchain_google_genai as genai
 
 # 2. Add your Gemini API Key here
-GOOGLE_API_KEY = "AIzaSyCL6-iGQ3nfNI7MSx3uk3Hp-am86tXyAw8"  # 👈 Yahan apni API key paste karein
+GOOGLE_API_KEY = "YOUE GOOGLE API KEY HERE"  # 👈 Yahan apni API key paste karein
 os.environ["GOOGLE_API_KEY"] = GOOGLE_API_KEY
 
 # 3. Load Gemini model
